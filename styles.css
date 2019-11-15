@@ -1,0 +1,22 @@
+body {
+    background-color: #8aeafb;
+}
+
+form {
+    height: 70vh;
+    width: 40em;
+    border: 10px solid white;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+input {
+    height: 28px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border: none;
+}

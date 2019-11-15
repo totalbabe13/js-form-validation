@@ -7,8 +7,26 @@
   </head>
   <body>
     <form class="form" action="index.html" method="post">
-      <input type="text" name="emial" placeholder="email" value="">
-      <p>Please provide a VALID email --> johndoe123@email.com</p>
+
+      <input type="text" data-valid="false" placeholder="E-mail..." value="">
+      <p id="emailhelp">Please provide a VALID email --> johndoe123@email.com</p>
+
+      <input type="text" data-valid="false" placeholder="E-mail Confirmation ..." value="">
+      <p id="confirmemail">Your email does not match</p>
+
+      <input type="text" data-valid="true" placeholder="Country" value="">
+
+      <input type="text" data-valid="false" placeholder="Enter your zipcode ..." value="">
+      <p id="confirmzip">Your zipcode is not valid</p>
+
+      <input type="password" data-valid="false" placeholder="Enter a password ..." value="">
+      <p id="pswdmessage">Enter a password between 7 to 16 characters</p>
+
+      <input type="password" data-valid="false" placeholder="RE-enter your password ..." value="">
+      <p id="pswdconfirm">Your password does not match</p>
+
+      <input type="submit" value="submit">
+
     </form>
 
      <script src="main.js"></script>

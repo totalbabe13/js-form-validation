@@ -20,3 +20,35 @@ input {
     margin-top: 10px;
     border: none;
 }
+
+#emailhelp {
+    margin-left: 64px;
+    font-size: small;
+    color: #81908b91;
+    display: none;
+}
+#confirmemail {
+  margin-left: 64px;
+  font-size: small;
+  color: #81908b91;
+  display: none;
+}
+
+#confirmzip {
+  margin-left: 64px;
+  font-size: small;
+  color: #81908b91;
+  display: none;
+}
+#pswdmessage {
+  margin-left: 64px;
+  font-size: small;
+  color: #81908b91;
+  display: none;
+}
+#pswdconfirm {
+  margin-left: 64px;
+  font-size: small;
+  color: #81908b91;
+  display: none;
+}
